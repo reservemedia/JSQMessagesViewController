@@ -26,7 +26,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wjI-rT-vRn" userLabel="Enclosure View">
-                    <rect key="frame" x="46" y="9" width="262" height="32"/>
+                    <rect key="frame" x="46" y="10" width="262" height="30"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dm4-NT-mvr" customClass="JSQMessagesComposerTextView">
@@ -64,12 +64,12 @@
                 <constraint firstAttribute="trailing" secondItem="QcH-9B-HCd" secondAttribute="trailing" id="K2r-l3-TJa"/>
                 <constraint firstItem="LEq-G7-jGt" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="8" id="LAU-fo-GJJ"/>
                 <constraint firstItem="wjI-rT-vRn" firstAttribute="trailing" secondItem="Myo-1S-Vg1" secondAttribute="trailing" constant="-4" id="LKP-eC-8uT"/>
-                <constraint firstItem="wjI-rT-vRn" firstAttribute="bottom" secondItem="dm4-NT-mvr" secondAttribute="bottom" constant="1" id="d8G-9E-cFx"/>
+                <constraint firstItem="wjI-rT-vRn" firstAttribute="bottom" secondItem="dm4-NT-mvr" secondAttribute="bottom" id="d8G-9E-cFx"/>
                 <constraint firstAttribute="trailing" secondItem="Myo-1S-Vg1" secondAttribute="trailing" constant="8" id="ds6-61-GNv"/>
                 <constraint firstItem="f58-kl-aXZ" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="43" id="gsi-Jw-Syb"/>
                 <constraint firstItem="f58-kl-aXZ" firstAttribute="top" secondItem="1" secondAttribute="top" id="itq-4Q-jXW"/>
                 <constraint firstAttribute="bottom" secondItem="LEq-G7-jGt" secondAttribute="bottom" constant="9" id="oG2-YD-ZZI"/>
-                <constraint firstItem="wjI-rT-vRn" firstAttribute="top" secondItem="dm4-NT-mvr" secondAttribute="top" constant="-1" id="ols-VP-0Pk"/>
+                <constraint firstItem="wjI-rT-vRn" firstAttribute="top" secondItem="dm4-NT-mvr" secondAttribute="top" id="ols-VP-0Pk"/>
                 <constraint firstItem="dm4-NT-mvr" firstAttribute="leading" secondItem="LEq-G7-jGt" secondAttribute="trailing" constant="8" id="owo-gB-gyR"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
