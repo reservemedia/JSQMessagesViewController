@@ -33,6 +33,13 @@ static void * kJSQMessagesInputToolbarKeyValueObservingContext = &kJSQMessagesIn
 
 @property (assign, nonatomic) BOOL jsq_isObserving;
 
+ - (void)jsq_leftBarButtonPressed:(UIButton *)sender;
+ - (void)jsq_rightBarButtonPressed:(UIButton *)sender;
+ 
+ - (void)jsq_addObservers;
+ - (void)jsq_removeObservers;
+
+
 @end
 
 
