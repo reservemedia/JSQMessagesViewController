@@ -69,6 +69,15 @@ const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
     self.enclosureView.layer.borderColor = [UIColor colorWithRed:226.0/255.0 green:226.0/255.0 blue:226.0/255.0 alpha:1].CGColor;
 }
 
+- (void)dealloc
+{
+    _textView = nil;
+    _leftBarButtonItem = nil;
+    _rightBarButtonItem = nil;
+    _leftBarButtonContainerView = nil;
+    _rightBarButtonContainerView = nil;
+}
+
 #pragma mark - Setters
 
 - (void)setBackgroundColor:(UIColor *)backgroundColor
