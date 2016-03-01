@@ -86,7 +86,7 @@ static void * kJSQMessagesInputToolbarKeyValueObservingContext = &kJSQMessagesIn
 - (void)dealloc
 {
     [self jsq_removeObservers];
-    _contentView = nil;
+    _contentView = nil; //
 }
 
 #pragma mark - Setters
