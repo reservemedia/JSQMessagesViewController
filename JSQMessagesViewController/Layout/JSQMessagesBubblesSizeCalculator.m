@@ -128,7 +128,7 @@
 
         //  add extra 2 points of space (`self.additionalInset`), because `boundingRectWithSize:` is slightly off
         //  not sure why. magix. (shrug) if you know, submit a PR
-        CGFloat verticalInsets = verticalContainerInsets + verticalFrameInsets + 5.0;
+        CGFloat verticalInsets = verticalContainerInsets + verticalFrameInsets + 8.0;
 
         //  same as above, an extra 2 points of magix
         CGFloat finalWidth = MAX(stringSize.width + horizontalInsetsTotal, self.minimumBubbleWidth) + 5.0;
