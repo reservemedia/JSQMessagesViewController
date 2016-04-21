@@ -76,7 +76,7 @@ const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault = 30.0f;
 - (void)jsq_configureFlowLayout
 {
     self.scrollDirection = UICollectionViewScrollDirectionVertical;
-    self.sectionInset = UIEdgeInsetsMake(10.0f, 4.0f, 10.0f, 4.0f);
+    self.sectionInset = UIEdgeInsetsMake(2.0f, 4.0f, 10.0f, 4.0f);
     self.minimumLineSpacing = 1.0f;
     
     _messageBubbleFont = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
