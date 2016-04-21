@@ -131,7 +131,7 @@
         CGFloat verticalInsets = verticalContainerInsets + verticalFrameInsets + 12.0;
 
         //  same as above, an extra 2 points of magix
-        CGFloat finalWidth = MAX(stringSize.width + horizontalInsetsTotal, self.minimumBubbleWidth) - 1.0;
+        CGFloat finalWidth = MAX(stringSize.width + horizontalInsetsTotal, self.minimumBubbleWidth) - 2.0;
 
         finalSize = CGSizeMake(finalWidth, stringSize.height + verticalInsets);
     }
