@@ -983,9 +983,9 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 
 - (void)jsq_setCollectionViewInsetsTopValue:(CGFloat)top bottomValue:(CGFloat)bottom
 {
-    UIEdgeInsets insets = UIEdgeInsetsMake(top, 0.0f, bottom, 0.0f);
+    UIEdgeInsets insets = UIEdgeInsetsMake(top, 0.0f, bottom + 15.0f, 0.0f);
     self.collectionView.contentInset = insets;
-    self.collectionView.scrollIndicatorInsets = insets;
+    self.collectionView.scrollIndicatorInsets = UIEdgeInsetsMake(top, 0.0f, bottom, 0.0f);
 }
 
 - (BOOL)jsq_isMenuVisible
